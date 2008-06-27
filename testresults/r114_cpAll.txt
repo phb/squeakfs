@@ -1,0 +1,67 @@
+This is a bit buggy, but the added traits can certainly justify for the added time?
+
+Svamp:sqfs phb$ time cp -R * /tmp/squeakfs/
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/Model/subclasses/StringHolder/subclasses/CodeHolder/subclasses/Browser/subclasses/HierarchyBrowser: No such file or directory
+cp: /tmp/squeakfs/hierarchy/ProtoObject/subclasses/Object/subclasses/Collection/subclasses/SequenceableCollection/subclasses/ArrayedCollection/subclasses/String/instance/substrings: Permission denied
+cp: /tmp/squeakfs/hierarchy/ProtoObject/subclasses/Object/subclasses/TestCase/subclasses/ClassTestCase/subclasses/FalseTest/instance/testOR: Permission denied
+cp: /tmp/squeakfs/hierarchy/ProtoObject/subclasses/Object/subclasses/TestCase/subclasses/ClassTestCase/subclasses/FalseTest/instance/testAND: Permission denied
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/TraitBehavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/TraitBehavior/traits/TPureBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/TraitBehavior/traits/TPureBehavior/traits/TCompilingBehavior: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/TraitBehavior/traits/TPureBehavior/traits/TUpdateTraitsBehavior: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/TraitBehavior/traits/TPureBehavior/traits/TAccessingTraitCompositionBehavior: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/Behavior/subclasses/ClassDescription/subclasses/Metaclass/traits/TApplyingOnClassSide: Invalid argument
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/Behavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/Behavior/traits/TPureBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/Behavior/traits/TPureBehavior/traits/TCompilingBehavior: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/Behavior/traits/TPureBehavior/traits/TUpdateTraitsBehavior: No such file or directory
+cp: hierarchy/ProtoObject/subclasses/Object/subclasses/Behavior/traits/TPureBehavior/traits/TAccessingTraitCompositionBehavior: No such file or directory
+cp: flat/Behavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: flat/Behavior/traits/TPureBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: flat/Behavior/traits/TPureBehavior/traits/TCompilingBehavior: No such file or directory
+cp: flat/Behavior/traits/TPureBehavior/traits/TUpdateTraitsBehavior: No such file or directory
+cp: flat/Behavior/traits/TPureBehavior/traits/TAccessingTraitCompositionBehavior: No such file or directory
+cp: /tmp/squeakfs/flat/FalseTest/instance/testOR: Permission denied
+cp: /tmp/squeakfs/flat/FalseTest/instance/testAND: Permission denied
+cp: flat/Metaclass/traits/TApplyingOnClassSide: Invalid argument
+cp: /tmp/squeakfs/flat/String/instance/substrings: Permission denied
+cp: flat/TPureBehavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: flat/TraitBehavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: flat/TraitBehavior/traits/TPureBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: flat/TraitBehavior/traits/TPureBehavior/traits/TCompilingBehavior: No such file or directory
+cp: flat/TraitBehavior/traits/TPureBehavior/traits/TUpdateTraitsBehavior: No such file or directory
+cp: flat/TraitBehavior/traits/TPureBehavior/traits/TAccessingTraitCompositionBehavior: No such file or directory
+cp: category/Kernel-Classes/Behavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: category/Kernel-Classes/Behavior/traits/TPureBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: category/Kernel-Classes/Behavior/traits/TPureBehavior/traits/TCompilingBehavior: No such file or directory
+cp: category/Kernel-Classes/Behavior/traits/TPureBehavior/traits/TUpdateTraitsBehavior: No such file or directory
+cp: category/Kernel-Classes/Behavior/traits/TPureBehavior/traits/TAccessingTraitCompositionBehavior: No such file or directory
+cp: category/Kernel-Classes/Metaclass/traits/TApplyingOnClassSide: Invalid argument
+cp: /tmp/squeakfs/category/Kernel-Objects/Object/instance/breakpoint/break: Permission denied
+cp: /tmp/squeakfs/category/KernelTests-Objects/FalseTest/instance/tests/testOr: Permission denied
+cp: /tmp/squeakfs/category/KernelTests-Objects/FalseTest/instance/tests/testAND: Permission denied
+cp: /tmp/squeakfs/category/KernelTests-Objects/FalseTest/instance/--all--/testOR: Permission denied
+cp: /tmp/squeakfs/category/KernelTests-Objects/FalseTest/instance/--all--/testAND: Permission denied
+cp: /tmp/squeakfs/category/Collections-Strings/String/instance/converting/substrings: Permission denied
+cp: /tmp/squeakfs/category/Collections-Strings/String/instance/--all--/substrings: Permission denied
+cp: category/ST80-Kernel-Remnants/StringHolder/instance/__STAR__Tools-traits/browseClassRefs: No such file or directory
+cp: category/ST80-Kernel-Remnants/StringHolder/instance/__STAR__Tools-traits/browseClassVariables: No such file or directory
+cp: category/ST80-Kernel-Remnants/StringHolder/instance/__STAR__Tools-traits/browseClassVarRefs: No such file or directory
+cp: category/ST80-Kernel-Remnants/StringHolder/instance/__STAR__Tools-traits/browseFullProtocol: No such file or directory
+cp: category/ST80-Kernel-Remnants/StringHolder/instance/__STAR__Tools-traits/browseInstVarDefs: No such file or directory
+cp: category/ST80-Kernel-Remnants/StringHolder/instance/__STAR__Tools-traits/browseInstVarRefs: No such file or directory
+cp: /tmp/squeakfs/category/Tests-Utilities/ClassTestCase/instance/Coverage/selectorsTested: Permission denied
+cp: category/Traits-Kernel/TraitBehavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: category/Traits-Kernel/TraitBehavior/traits/TPureBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: category/Traits-Kernel/TraitBehavior/traits/TPureBehavior/traits/TCompilingBehavior: No such file or directory
+cp: category/Traits-Kernel/TraitBehavior/traits/TPureBehavior/traits/TUpdateTraitsBehavior: No such file or directory
+cp: category/Traits-Kernel/TraitBehavior/traits/TPureBehavior/traits/TAccessingTraitCompositionBehavior: No such file or directory
+cp: category/Traits-Kernel-Traits/TPureBehavior/traits/TAccessingTraitCompositionBehavior/instance/traitsProvidingSelector:: No such file or directory
+cp: category/SqueakFS/SqueakFSNetwork/instance/image traits/userActiongetAllTraits: No such file or directory
+cp: category/SqueakFS/SqueakFSNetwork/instance/image traits/userActiongetTraitUsers:: No such file or directory
+cp: category/SqueakFS/SqueakFSNetwork/instance/image traits/userActiongetTraits:: No such file or directory
+cp: category/SqueakFS/SqueakFSNetwork/instance/image traits/userActionisTrait:: No such file or directory
+
+real	37m45.929s
+user	0m8.789s
+sys	2m10.671s

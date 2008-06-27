@@ -1,0 +1,26 @@
+/category/Files-Kernel/HtmlFileStream/instance/read,\ write,\ position
+/category/Files-Kernel/StandardFileStream/instance/read,\ write,\ position
+/category/Graphics-Display\ Objects/ColorForm/instance/scaling,\ rotation
+/category/Graphics-Display\ Objects/Form/instance/scaling,\ rotation
+/category/Morphic-FileList/FileList/instance/drag\'n\'drop
+/category/Morphic-FileList/FileList2/instance/drag\'n\'drop
+/category/Morphic-Kernel/TheWorldMenu/instance/windows\ \&\ flaps\ menu
+/category/Morphic-Scripting/ScriptEditorMorph/instance/save\ \&\ revert
+/category/Morphic-Worlds/PasteUpMorph/instance/menu\ \&\ halo
+/category/System-Support/SmalltalkImage/instance/image,\ changes\ names
+/category/System-Support/SmalltalkImage/instance/sources,\ change\ log
+/category/System-Support/SmalltalkImage/instance/sources,\ changes\ log
+/category/System-Support/SystemDictionary/instance/image,\ changes\ name
+/category/System-Support/SystemDictionary/instance/sources,\ change\ log
+/category/Tools-Changes/VersionsBrowser/instance/init\ \&\ update
+/category/Tools-Debugger/Debugger/instance/context\ stack\ \(message\ list\)
+/category/Tools-Base/CodeHolder/instance/categories\ \&\ search\ pane
+/category/Monticello-Mocks/MCMockClassA/instance/drag\'n\'drop
+/category/MorphicExtras-Support/SketchEditorMorph/instance/actions\ \&\ preps
+/category/MorphicExtras-Support/SketchEditorMorph/instance/start\ \&\ finish
+/category/MorphicExtras-Flaps/FlapTab/instance/mouseover\ \&\ dragover
+/category/MorphicExtras-Flaps/FlapTab/instance/show\ \&\ hide
+/category/EToys-Scripting/Presenter/instance/palette\ \&\ parts\ bin
+/category/EToys-Scripting/ScriptInstantiation/instance/player\ \&\ selector\ access
+/category/EToys-Tile\ Scriptors/SyntaxMorph/instance/card\ \&\ stack
+/category/VMMaker-Plugins/SoundCodecPlugin/instance/gsm\ 6.10\ codec

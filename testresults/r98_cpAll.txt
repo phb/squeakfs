@@ -1,0 +1,53 @@
+Svamp:Squeak3.9-final-7067 phb$ time cp -R sqfs source_backup
+cp: source_backup/flat/FalseTest/instance/testOr: Permission denied
+cp: source_backup/flat/FalseTest/instance/testAND: Permission denied
+cp: source_backup/flat/String/instance/substrings: Permission denied
+cp: source_backup/hierarchy/ProtoObject/subclasses/Object/subclasses/Collection/subclasses/SequenceableCollection/subclasses/ArrayedCollection/subclasses/String/instance/substrings: Permission denied
+cp: source_backup/hierarchy/ProtoObject/subclasses/Object/subclasses/TestCase/subclasses/ClassTestCase/subclasses/FalseTest/instance/testOr: Permission denied
+cp: source_backup/hierarchy/ProtoObject/subclasses/Object/subclasses/TestCase/subclasses/ClassTestCase/subclasses/FalseTest/instance/testAND: Permission denied
+cp: source_backup/category/Kernel-Objects/Object/instance/breakpoint/break: Permission denied
+cp: source_backup/category/KernelTests-Objects/FalseTest/instance/tests/testOr: Permission denied
+cp: source_backup/category/KernelTests-Objects/FalseTest/instance/tests/testAND: Permission denied
+cp: source_backup/category/KernelTests-Objects/FalseTest/instance/--all--/testOr: Permission denied
+cp: source_backup/category/KernelTests-Objects/FalseTest/instance/--all--/testAND: Permission denied
+cp: source_backup/category/Collections-Strings/String/instance/converting/substrings: Permission denied
+cp: source_backup/category/Collections-Strings/String/instance/--all--/substrings: Permission denied
+cp: source_backup/category/Tests-Utilities/ClassTestCase/instance/Coverage/selectorsTested: Permission denied
+cp: sqfs/category/Traits-Kernel-Traits/TComposingDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TComposingDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TAccessingTraitCompositionBehavior/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TAccessingTraitCompositionBehavior/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TApplyingOnClassSide/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TApplyingOnClassSide/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TBasicCategorisingDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TBasicCategorisingDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TBehaviorCategorization/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TBehaviorCategorization/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCommentDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCommentDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCompilingBehavior/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCompilingBehavior/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCompilingDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCompilingDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TAccessingMethodDictDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TAccessingMethodDictDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCopyingDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TCopyingDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TFileInOutDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TFileInOutDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TPrintingDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TPrintingDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TPureBehavior/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TPureBehavior/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TTestingDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TTestingDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TTraitsCategorisingDescription/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TTraitsCategorisingDescription/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TTransformationCompatibility/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TTransformationCompatibility/classmembers: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TUpdateTraitsBehavior/superclass: No such file or directory
+cp: sqfs/category/Traits-Kernel-Traits/TUpdateTraitsBehavior/classmembers: No such file or directory
+
+real	22m32.011s
+user	0m7.358s
+sys	1m56.367s
