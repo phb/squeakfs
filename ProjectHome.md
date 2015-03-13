@@ -1,0 +1,1 @@
+SqueakFS is based on FUSE. It makes certain contents of a running Squeak Smalltalk image available as a file system.
